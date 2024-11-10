@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./frontpage.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        body {
+            width: 100%;
+            height: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav h1 {
+            margin-top: 20px;
+            font-size: x-large;
+            color: black;
+        }
+
+       
+
+        header {
+            display: flex;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        header p {
+            width: 70%;
+            margin-top: 50px;
+            text-align: justify;
+            margin-left: 100px;
+        }
+
+        header button {
+            margin-left: 100px;
+            width: 150px;
+
+        }
+
+        article {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        article h1 {
+            text-align: center;
+            margin-top: 70px;
+
+        }
+
+        article p {
+            width: 70%;
+            margin-top: 50px;
+            text-align: justify;
+            margin-left: 100px;
+
+        }
+
+        /* article button{
+    margin-left: 100px;
+    width: 150px;
+}
+ */
+
+        footer ul li {
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            /* Adjust size as needed */
+        }
+
+        .navbar-brand i {
+            font-size: 2rem;
+            /* Adjust icon size as needed */
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar  fixed-top" style="background-color: rgb(30, 114, 240);">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1"><img src="https://up.yimg.com/ib/th?id=OIP.Abykpj43pyASZoDFuN0Z-QHaFj&pid=Api&rs=1&c=1&qlt=95&w=133&h=100" width="60px" height="60px"  class="rounded-circle" alt=""><strong> My Bank </strong> </span>
+            <form>
+                <button onclick="reg()" class="btn btn-outline-dark" type="button">register</button>
+                <button onclick="logi()" class="btn btn-outline-dark" type="button">login</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <div class="row1 ">
+            <div class="col1 p-5">
+                <h1 style="font-weight: bold;">Online Bank</h1>
+                <p>
+                    An online bank is a financial institution that operates primarily through digital platforms without
+                    a physical branch network. Customers can manage their accounts, transfer funds, pay bills, and
+                    access a wide range of financial services entirely online or via mobile apps. Online banks often
+                    offer lower fees, higher interest rates on savings, and convenient, 24/7 access to banking services.
+                    Examples include Ally Bank, Chime, and Revolut</p>
+                <button class="btn btn-outline-dark">Get Start</button>
+            </div>
+        </div>
+        <div class="p-5">
+
+
+            <img src="https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7711.jpg?ga=GA1.1.345573464.1721638879&semt=ais_hybrid"
+                alt="">
+        </div>
+    </header>
+    <article>
+
+        <div>
+            <img class="img"
+                src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-bank_516790-1799.jpg"
+                width="600px" alt="">
+        </div>
+        <div class="row2">
+            <div class="col2 p-5 ">
+                <h1 style="font-weight: bold;">Variety Of Payment Choices</h1>
+                <p>
+                    A variety of payment choices allows customers to choose from multiple payment options like
+                    credit/debit cards, mobile wallets, online platforms (PayPal), bank transfers, and even
+                    cryptocurrency. Offering diverse payment methods enhances convenience, reduces cart abandonment, and
+                    caters to a broader range of customer preferences</p>
+                <!-- <button class="btn btn-outline-dark">Clik me</button> -->
+            </div>
+        </div>
+
+
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <footer class="site-footer bg-light shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h4 style="font-weight: bold;">My Bank</h4>
+                    <p class="text-justify">Your online bank could be described as a digital financial institution that
+                        offers customers a seamless banking experience through a user-friendly website or mobile app.
+                        The bank would provide services such as checking and savings accounts, money transfers, bill
+                        payments, and even loans, all managed digitally.
+
+                        By eliminating the need for physical branches, your online bank can offer lower fees,
+                        competitive interest rates, and 24/7 access. You could also provide additional features like
+                        budgeting tools, financial advice, and security enhancements like two-factor authentication
+                        (2FA) to ensure safe transactions.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h4 style="font-weight: bold;">My Bank Provides</h4>
+                    <ul class="footer-links ">
+                        <li><a href="http://scanfcode.com/category/c-language/">services</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">Online Payment</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">Mobile Wallet Integration</a>
+                        </li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Security</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Loans and Credit</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Money Transfers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h4 style="font-weight: bold;">Contacts</h4>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">online bank</a></li>
+                        <li><a href="http://scanfcode.com/contact/">+92876436728</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">onlinebank@gmail.com</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">onlinebank</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
